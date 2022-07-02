@@ -2,11 +2,11 @@
 <h1 align="center">Hi 👋, I'm Ijlal Ahmad</h1>  
 <h3 align="center">Full Stack Android Developer</h3>  
   
-  <img align="right" alt="Coding" width="350" src="https://camo.githubusercontent.com/a4c584bce1c41271485d28f92aaf9f581b3c88b68ca723b6edfd58b4ba988c2b/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f313138373833362f73637265656e73686f74732f363533393432392f70726f6772616d65722e676966">
+ <img align="right" alt="Coding" width="400" src="https://i.pinimg.com/originals/a5/35/60/a53560c8088900e266880f779dacced7.gif">
  
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=threadripper&label=Profile%20views&color=0e75b6&style=flat" alt="threadripper" /> </p>  
   
-<p align="left"> <a href="https://twitter.com/crossfire30000" target="blank"><img src="https://img.shields.io/twitter/follow/crossfire30000?logo=twitter&style=for-the-badge" alt="crossfire30000" /></a> </p>  
+<p align="left"> <a href="https://twitter.com/crossfire30000" target="blank"><img src="https://img.shields.io/twitter/follow/crossfire30000?logo=twitter&style=for-the-badge" alt="crossfire30000" /></a></p>  
   
 - 🌱 I’m currently learning **Web Dev, MERN Stack**  
   
@@ -30,5 +30,5 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ijlalahmad845&layout=compact&theme=dracula" /></p>  
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ijlalahmad845&show_icons=true&locale=en&theme=dracula" /></p>  
-  
+
 <p><img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=ijlalahmad845&theme=dark" /></p>
