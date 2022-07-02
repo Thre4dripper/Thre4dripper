@@ -1,6 +1,8 @@
-
+![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsMw/XbBpCXG8fHI/AAAAAAAAMt4/uOa1bpLskYgrwGbllhSu2SDj_Mig8SXJQCLcBGAsYHQ/s1600/2000_600px.gif)
 <h1 align="center">Hi 👋, I'm Ijlal Ahmad</h1>  
 <h3 align="center">Full Stack Android Developer</h3>  
+
+<img align="right" alt="Coding" width="400" src="https://camo.githubusercontent.com/a4c584bce1c41271485d28f92aaf9f581b3c88b68ca723b6edfd58b4ba988c2b/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f313138373833362f73637265656e73686f74732f363533393432392f70726f6772616d65722e676966">
   
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=threadripper&label=Profile%20views&color=0e75b6&style=flat" alt="threadripper" /> </p>  
   
@@ -31,6 +33,6 @@
   
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=threadripper&show_icons=true&locale=en&layout=compact" alt="threadripper" /></p>  
   
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Threadripper&show_icons=true&locale=en" alt="threadripper" /></p>  
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Threadripper&show_icons=true&locale=en" alt="Ijlal Ahmad" /></p>  
   
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=threadripper&" alt="threadripper" /></p>
