@@ -28,6 +28,8 @@
   
  <p><img align="center" src="https://github-readme-stats.vercel.app/api?username=thre4dripper&show_icons=true&locale=en&theme=dracula" /></p>  
   
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thre4dripper&layout=compact&theme=dracula" /></p>  
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thre4dripper&langs_count=6&theme=dracula&layout=compact" /></p>  
 
-<p><img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=thre4dripper&theme=dark" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=thre4dripper&theme=dark" /></p>
+
+![](./profile-3d-contrib/profile-south-season-animate.svg)
