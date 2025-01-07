@@ -15,7 +15,7 @@
 <h3 align="left">Connect with me:</h3>  
 <p align="left">  
 <a href="https://www.facebook.com/ijlal.ahmad.393/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="crossfire30000" height="30" width="40" /></a>  
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/ijlal-ahmad-14aa35202/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/ijlal-ahmad-14aa35202/" height="30" width="40" /></a>  
+<a href="https://www.linkedin.com/in/ijlal-ahmad-14aa35202/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/ijlal-ahmad-14aa35202/" height="30" width="40" /></a>  
 <a href="https://instagram.com/thre4dripper" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="thre4dripper" height="30" width="40" /></a>  
 <a href="https://leetcode.com/thre4dripper" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="ijlal ahmad" height="30" width="40" /></a>  
 </p>
