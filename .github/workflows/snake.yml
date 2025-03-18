@@ -1,14 +1,9 @@
 name: generate animation
 
 on:
-  # Run automatically every 24 hours
   schedule:
     - cron: "0 0 * * *"
-
-  # Allows manual execution
   workflow_dispatch:
-
-  # Run on every push to the main branch
   push:
     branches:
       - main
@@ -21,26 +16,40 @@ jobs:
   setup:
     runs-on: ubuntu-latest
     outputs:
-      loop_count: ${{ steps.randomizer.outputs.loop_count }}
-
+      matrix_json: ${{ steps.setup-matrix.outputs.matrix_json }}
     steps:
-      - name: Generate random loop count (5-10)
-        id: randomizer
-        run: echo "loop_count=$((RANDOM % 6 + 5))" >> $GITHUB_ENV
+      - name: Generate random matrix
+        id: setup-matrix
+        run: |
+          # Generate random number between 5-10
+          loop_count=$((RANDOM % 6 + 5))
+          
+          # Create JSON array of sequence numbers
+          seq_numbers=$(seq 0 $((loop_count - 1)) | tr '\n' ',' | sed 's/,$//')
+          matrix_json="[$seq_numbers]"
+          
+          echo "matrix_json=$matrix_json" >> $GITHUB_OUTPUT
+          echo "Generated matrix with $loop_count runs"
 
   generate:
     needs: setup
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 20
     strategy:
       matrix:
-        run_index: ${{ fromJson(format('[{0}]', join(',', range(1, env.loop_count | int)))) }}
-
+        delay_step: ${{ fromJson(needs.setup.outputs.matrix_json) }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Add staggered delay
+        run: |
+          delay_seconds=$(( ${{ matrix.delay_step }} * 15 ))
+          echo "Waiting for $delay_seconds seconds before running"
+          sleep $delay_seconds
 
       - name: Generate snake animation
         uses: Platane/snk/svg-only@v3
@@ -53,8 +62,9 @@ jobs:
         run: |
           git config --global user.email "ijlalahmad845@gmail.com"
           git config --global user.name "Ijlal Ahmad"
+          git pull --rebase
           git add .
-          git commit -m "update snake animation"
+          git commit -m "Update snake animation (run ${{ matrix.delay_step }})"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
