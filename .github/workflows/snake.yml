@@ -10,7 +10,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 jobs:
   setup:
@@ -18,26 +17,25 @@ jobs:
     outputs:
       matrix_json: ${{ steps.setup-matrix.outputs.matrix_json }}
     steps:
-      - name: Generate random matrix
+      - name: Generate even number of runs (4-10)
         id: setup-matrix
         run: |
-          # Generate random number between 5-10
-          loop_count=$((RANDOM % 6 + 5))
+          # Generate even number between 4-10
+          loop_count=$(( (RANDOM % 4 + 2) * 2 ))
           
-          # Create JSON array of sequence numbers
-          seq_numbers=$(seq 0 $((loop_count - 1)) | tr '\n' ',' | sed 's/,$//')
-          matrix_json="[$seq_numbers]"
-          
-          echo "matrix_json=$matrix_json" >> $GITHUB_OUTPUT
-          echo "Generated matrix with $loop_count runs"
+          # Create array of indices
+          matrix_indices=$(seq 0 $((loop_count - 1)) | tr '\n' ',' | sed 's/,$//')
+          echo "matrix_json=[$matrix_indices]" >> $GITHUB_OUTPUT
+          echo "Generated $loop_count runs (indices: $matrix_indices)"
 
   generate:
     needs: setup
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     strategy:
       matrix:
-        delay_step: ${{ fromJson(needs.setup.outputs.matrix_json) }}
+        index: ${{ fromJson(needs.setup.outputs.matrix_json) }}
+      max-parallel: 1  # Run jobs sequentially
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -45,13 +43,14 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
-      - name: Add staggered delay
+      - name: Delete snake file (even indices)
+        if: ${{ matrix.index % 2 == 0 }}
         run: |
-          delay_seconds=$(( ${{ matrix.delay_step }} * 15 ))
-          echo "Waiting for $delay_seconds seconds before running"
-          sleep $delay_seconds
+          rm -rf snake/ || true
+          echo "Deleted snake directory"
 
-      - name: Generate snake animation
+      - name: Generate snake animation (odd indices)
+        if: ${{ matrix.index % 2 != 0 }}
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -62,9 +61,15 @@ jobs:
         run: |
           git config --global user.email "ijlalahmad845@gmail.com"
           git config --global user.name "Ijlal Ahmad"
-          git pull --rebase
           git add .
-          git commit -m "Update snake animation (run ${{ matrix.delay_step }})"
+          
+          if [ $(( ${{ matrix.index }} % 2 )) -eq 0 ]; then
+            commit_msg="Deleted snake animation (step ${{ matrix.index }})"
+          else
+            commit_msg="Generated snake animation (step ${{ matrix.index }})"
+          fi
+          
+          git commit -m "$commit_msg" || echo "No changes to commit"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
