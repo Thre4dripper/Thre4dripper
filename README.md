@@ -45,7 +45,6 @@
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ### 🐍 Contributions
-
 <picture>
   <img alt="github-snake" src="snake/github-contribution-grid-snake-dark.svg?palette=github-dark" />
 </picture>
