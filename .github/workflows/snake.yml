@@ -1,49 +1,90 @@
 name: generate animation
 
 on:
-  # run automatically every 24 hours
   schedule:
     - cron: "0 0 * * *"
-
-  # allows to manually run the job at any time
   workflow_dispatch:
-
-  # run on every push on the master branch
   push:
     branches:
       - main
 
 permissions:
   contents: write
-  pull-requests: write
 
 jobs:
-  generate:
-    name: Generate snake animation
+  setup:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-
+    outputs:
+      matrix_json: ${{ steps.setup-matrix.outputs.matrix_json }}
     steps:
-      - name: Checkout
+      - name: Generate operation sequence
+        id: setup-matrix
+        run: |
+          # Generate even number between 4-10
+          loop_count=$(( (RANDOM % 4 + 2) * 2 ))
+          
+          # Create alternating sequence of operations
+          matrix_json="["
+          for i in $(seq 1 $loop_count); do
+            if [ $((i % 2)) -eq 0 ]; then
+              operation="generate"
+            else
+              operation="delete"
+            fi
+            matrix_json+="{\"run_number\":$i,\"operation\":\"$operation\"},"
+          done
+          matrix_json="${matrix_json%,}]"
+          
+          echo "matrix_json=$matrix_json" >> $GITHUB_OUTPUT
+          echo "Generated $loop_count runs"
+
+  generate:
+    needs: setup
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      matrix:
+        task: ${{ fromJson(needs.setup.outputs.matrix_json) }}
+      max-parallel: 1  # Force sequential execution
+    steps:
+      - name: Checkout with fresh history
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0  # Get full history
+          ref: ${{ github.ref }}
 
-      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
-      - name: generate github-contribution-grid-snake.svg
+      - name: Reset to latest origin
+        run: |
+          git fetch origin
+          git reset --hard origin/main
+
+      - name: Delete snake files
+        if: ${{ matrix.task.operation == 'delete' }}
+        run: |
+          rm -rf snake/
+          echo "Snake directory removed"
+
+      - name: Generate new animation
+        if: ${{ matrix.task.operation == 'generate' }}
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             snake/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#fa9630&color_dots=#161b22,#44365b,#654f83,#a884de,#cbaaff
 
-      # Commit the changes
-      - name: Commit
+      - name: Force commit changes
         run: |
           git config --global user.email "ijlalahmad845@gmail.com"
-            git config --global user.name "Ijlal Ahmad"
-            git add .
-            git commit -m "update snake animation"
-            git push
+          git config --global user.name "Ijlal Ahmad"
+          git add .
+          
+          # Always create a commit with timestamp
+          timestamp=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          commit_msg="${{ matrix.task.operation }} snake animation [$timestamp] (run ${{ matrix.task.run_number }})"
+          
+          git commit --allow-empty -m "$commit_msg"
+          git pull --rebase
+          git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
