@@ -23,10 +23,20 @@ jobs:
           # Generate even number between 4-10
           loop_count=$(( (RANDOM % 4 + 2) * 2 ))
           
-          # Create array of indices
-          matrix_indices=$(seq 0 $((loop_count - 1)) | tr '\n' ',' | sed 's/,$//')
-          echo "matrix_json=[$matrix_indices]" >> $GITHUB_OUTPUT
-          echo "Generated $loop_count runs (indices: $matrix_indices)"
+          # Create matrix with even/odd markers
+          matrix_json="["
+          for i in $(seq 0 $((loop_count - 1))); do
+            if [ $((i % 2)) -eq 0 ]; then
+              type="delete"
+            else
+              type="generate"
+            fi
+            matrix_json+="{\"index\":$i,\"operation\":\"$type\"},"
+          done
+          matrix_json="${matrix_json%,}]"
+          
+          echo "matrix_json=$matrix_json" >> $GITHUB_OUTPUT
+          echo "Generated $loop_count runs"
 
   generate:
     needs: setup
@@ -34,8 +44,8 @@ jobs:
     timeout-minutes: 30
     strategy:
       matrix:
-        index: ${{ fromJson(needs.setup.outputs.matrix_json) }}
-      max-parallel: 1  # Run jobs sequentially
+        config: ${{ fromJson(needs.setup.outputs.matrix_json) }}
+      max-parallel: 1  # Sequential execution
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -43,14 +53,14 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
-      - name: Delete snake file (even indices)
-        if: ${{ matrix.index % 2 == 0 }}
+      - name: Delete snake folder
+        if: ${{ matrix.config.operation == 'delete' }}
         run: |
-          rm -rf snake/ || true
+          rm -rf snake/
           echo "Deleted snake directory"
 
-      - name: Generate snake animation (odd indices)
-        if: ${{ matrix.index % 2 != 0 }}
+      - name: Generate snake animation
+        if: ${{ matrix.config.operation == 'generate' }}
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -63,13 +73,13 @@ jobs:
           git config --global user.name "Ijlal Ahmad"
           git add .
           
-          if [ $(( ${{ matrix.index }} % 2 )) -eq 0 ]; then
-            commit_msg="Deleted snake animation (step ${{ matrix.index }})"
+          if [ "${{ matrix.config.operation }}" = "delete" ]; then
+            commit_msg="Deleted snake files (step ${{ matrix.config.index }})"
           else
-            commit_msg="Generated snake animation (step ${{ matrix.index }})"
+            commit_msg="Generated snake animation (step ${{ matrix.config.index }})"
           fi
           
-          git commit -m "$commit_msg" || echo "No changes to commit"
+          git commit -m "$commit_msg"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
