@@ -9,9 +9,9 @@ on:
   workflow_dispatch:
 
   # run on every push on the master branch
-#   push:
-#     branches:
-#       - main
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -32,6 +32,10 @@ jobs:
           outputs: |
             snake/github-contribution-grid-snake.svg
             snake/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+        # commits the generated svg animation to the repository
+      - name: List
+        run: ls
 
       - name: Checkout
         uses: actions/checkout@v4
