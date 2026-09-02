@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 310" width="480" height="310" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" role="img" aria-label="terminal session: whoami">
+<title>terminal session: whoami</title>
+<defs>
+  <linearGradient id="tbg1c" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#12162a"/>
+    <stop offset="100%" stop-color="#080b18"/>
+  </linearGradient>
+</defs>
+<style></style>
+<rect x="1" y="1" width="478" height="308" rx="12" fill="url(#tbg1c)" stroke="#2b3152" stroke-width="1.5"/>
+<path d="M1,13 A12,12 0 0 1 13,1 L467,1 A12,12 0 0 1 479,13 L479,40 L1,40 Z" fill="#191d33"/>
+<line x1="1" y1="40" x2="479" y2="40" stroke="#2b3152" stroke-width="1.2"/>
+<circle cx="22" cy="20.5" r="5.5" fill="#ff5f57"/>
+<circle cx="40" cy="20.5" r="5.5" fill="#febc2e"/>
+<circle cx="58" cy="20.5" r="5.5" fill="#28c840"/>
+<text x="240" y="25" text-anchor="middle" font-size="11.5" fill="#6f78a3">ijlal@homelab: ~</text>
+<clipPath id="t12"><rect x="18" y="48" height="18" width="0"><animate attributeName="width" values="0;0;7.5;15;22.5;30;37.5;45;52.5;60" keyTimes="0;0.03157;0.03614;0.04071;0.04528;0.04985;0.05442;0.05898;0.06355;0.06812" calcMode="discrete" dur="12.04s" repeatCount="indefinite"/></rect></clipPath>
+<g clip-path="url(#t12)" font-size="12.5" xml:space="preserve"><text x="18" y="60" fill="#4FE0B0">$</text><text x="33" y="60" fill="#e6ebff">whoami</text></g>
+<g opacity="0">
+  <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.03157;0.07269;1" calcMode="discrete" dur="12.04s" repeatCount="indefinite"/>
+  <rect x="18" y="49" width="7.5" height="14" fill="#FFC66E" opacity="0.85">
+    <animate attributeName="x" values="18;18;25.5;33;40.5;48;55.5;63;70.5;78" keyTimes="0;0.03157;0.03614;0.04071;0.04528;0.04985;0.05442;0.05898;0.06355;0.06812" calcMode="discrete" dur="12.04s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.9;0.9;0.15;0.15;0.9" dur="1.05s" repeatCount="indefinite"/>
+  </rect>
+</g>
+<clipPath id="t13"><rect x="18" y="72" height="18" width="0"><animate attributeName="width" values="0;0;7.5;15;22.5;30;37.5;45;52.5;60;67.5;75;82.5;90;97.5;105;112.5;120;127.5;135;142.5;150;157.5;165;172.5;180;187.5;195;202.5;210;217.5;225;232.5;240;247.5;255;262.5;270;277.5;285" keyTimes="0;0.07975;0.08067;0.08158;0.0825;0.08341;0.08432;0.08524;0.08615;0.08706;0.08798;0.08889;0.08981;0.09072;0.09163;0.09255;0.09346;0.09438;0.09529;0.0962;0.09712;0.09803;0.09894;0.09986;0.10077;0.10169;0.1026;0.10351;0.10443;0.10534;0.10626;0.10717;0.10808;0.109;0.10991;0.11082;0.11174;0.11265;0.11357;0.11448" calcMode="discrete" dur="12.04s" repeatCount="indefinite"/></rect></clipPath>
+<g clip-path="url(#t13)" font-size="12.5" xml:space="preserve"><text x="18" y="84" fill="#a7b0d6">ijlal ahmad — full stack &amp; ai engineer</text></g>
+<clipPath id="t14"><rect x="18" y="96" height="18" width="0"><animate attributeName="width" values="0;0;7.5;15;22.5;30;37.5;45;52.5;60;67.5;75;82.5;90;97.5" keyTimes="0;0.14605;0.15062;0.15519;0.15976;0.16433;0.1689;0.17347;0.17803;0.1826;0.18717;0.19174;0.19631;0.20088;0.20545" calcMode="discrete" dur="12.04s" repeatCount="indefinite"/></rect></clipPath>
+<g clip-path="url(#t14)" font-size="12.5" xml:space="preserve"><text x="18" y="108" fill="#4FE0B0">$</text><text x="33" y="108" fill="#e6ebff">cat now.txt</text></g>
+<g opacity="0">
+  <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.14605;0.21002;1" calcMode="discrete" dur="12.04s" repeatCount="indefinite"/>
+  <rect x="18" y="97" width="7.5" height="14" fill="#FFC66E" opacity="0.85">
+    <animate attributeName="x" values="18;18;25.5;33;40.5;48;55.5;63;70.5;78;85.5;93;100.5;108;115.5" keyTimes="0;0.14605;0.15062;0.15519;0.15976;0.16433;0.1689;0.17347;0.17803;0.1826;0.18717;0.19174;0.19631;0.20088;0.20545" calcMode="discrete" dur="12.04s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.9;0.9;0.15;0.15;0.9" dur="1.05s" repeatCount="indefinite"/>
+  </rect>
+</g>
+<clipPath id="t15"><rect x="18" y="120" height="18" width="0"><animate attributeName="width" values="0;0;7.5;15;22.5;30;37.5;45;52.5;60;67.5;75;82.5;90;97.5;105;112.5;120;127.5;135;142.5;150;157.5;165;172.5;180;187.5;195;202.5;210;217.5;225;232.5;240;247.5;255;262.5;270;277.5;285;292.5;300;307.5;315;322.5" keyTimes="0;0.21708;0.21799;0.21891;0.21982;0.22074;0.22165;0.22256;0.22348;0.22439;0.22531;0.22622;0.22713;0.22805;0.22896;0.22987;0.23079;0.2317;0.23262;0.23353;0.23444;0.23536;0.23627;0.23719;0.2381;0.23901;0.23993;0.24084;0.24175;0.24267;0.24358;0.2445;0.24541;0.24632;0.24724;0.24815;0.24907;0.24998;0.25089;0.25181;0.25272;0.25363;0.25455;0.25546;0.25638" calcMode="discrete" dur="12.04s" repeatCount="indefinite"/></rect></clipPath>
+<g clip-path="url(#t15)" font-size="12.5" xml:space="preserve"><text x="18" y="132" fill="#a7b0d6">building an ai-native platform @ gus global</text></g>
+<clipPath id="t16"><rect x="18" y="144" height="18" width="0"><animate attributeName="width" values="0;0;7.5;15;22.5;30;37.5;45;52.5;60;67.5;75;82.5;90;97.5;105;112.5;120;127.5;135;142.5;150;157.5;165;172.5;180;187.5" keyTimes="0;0.28795;0.29251;0.29708;0.30165;0.30622;0.31079;0.31536;0.31993;0.3245;0.32907;0.33364;0.33821;0.34278;0.34735;0.35191;0.35648;0.36105;0.36562;0.37019;0.37476;0.37933;0.3839;0.38847;0.39304;0.39761;0.40218" calcMode="discrete" dur="12.04s" repeatCount="indefinite"/></rect></clipPath>
+<g clip-path="url(#t16)" font-size="12.5" xml:space="preserve"><text x="18" y="156" fill="#4FE0B0">$</text><text x="33" y="156" fill="#e6ebff">gh contrib --since 2021</text></g>
+<g opacity="0">
+  <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.28795;0.40675;1" calcMode="discrete" dur="12.04s" repeatCount="indefinite"/>
+  <rect x="18" y="145" width="7.5" height="14" fill="#FFC66E" opacity="0.85">
+    <animate attributeName="x" values="18;18;25.5;33;40.5;48;55.5;63;70.5;78;85.5;93;100.5;108;115.5;123;130.5;138;145.5;153;160.5;168;175.5;183;190.5;198;205.5" keyTimes="0;0.28795;0.29251;0.29708;0.30165;0.30622;0.31079;0.31536;0.31993;0.3245;0.32907;0.33364;0.33821;0.34278;0.34735;0.35191;0.35648;0.36105;0.36562;0.37019;0.37476;0.37933;0.3839;0.38847;0.39304;0.39761;0.40218" calcMode="discrete" dur="12.04s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.9;0.9;0.15;0.15;0.9" dur="1.05s" repeatCount="indefinite"/>
+  </rect>
+</g>
+<clipPath id="t17"><rect x="18" y="168" height="18" width="0"><animate attributeName="width" values="0;0;7.5;15;22.5;30;37.5;45;52.5;60;67.5;75;82.5;90;97.5;105;112.5;120;127.5;135;142.5;150;157.5;165;172.5;180;187.5;195;202.5;210;217.5;225;232.5;240;247.5;255;262.5;270;277.5" keyTimes="0;0.41381;0.41472;0.41564;0.41655;0.41746;0.41838;0.41929;0.4202;0.42112;0.42203;0.42295;0.42386;0.42477;0.42569;0.4266;0.42752;0.42843;0.42934;0.43026;0.43117;0.43208;0.433;0.43391;0.43483;0.43574;0.43665;0.43757;0.43848;0.4394;0.44031;0.44122;0.44214;0.44305;0.44396;0.44488;0.44579;0.44671;0.44762" calcMode="discrete" dur="12.04s" repeatCount="indefinite"/></rect></clipPath>
+<g clip-path="url(#t17)" font-size="12.5" xml:space="preserve"><text x="18" y="180" fill="#a7b0d6">11,990 contributions · 537-day streak</text></g>
+<clipPath id="t18"><rect x="18" y="192" height="18" width="0"><animate attributeName="width" values="0;0;7.5;15;22.5;30;37.5;45;52.5;60;67.5;75;82.5;90;97.5;105;112.5;120;127.5;135" keyTimes="0;0.47919;0.48376;0.48833;0.4929;0.49747;0.50204;0.5066;0.51117;0.51574;0.52031;0.52488;0.52945;0.53402;0.53859;0.54316;0.54773;0.5523;0.55687;0.56144" calcMode="discrete" dur="12.04s" repeatCount="indefinite"/></rect></clipPath>
+<g clip-path="url(#t18)" font-size="12.5" xml:space="preserve"><text x="18" y="204" fill="#4FE0B0">$</text><text x="33" y="204" fill="#e6ebff">ls ~/side-quests</text></g>
+<g opacity="0">
+  <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.47919;0.566;1" calcMode="discrete" dur="12.04s" repeatCount="indefinite"/>
+  <rect x="18" y="193" width="7.5" height="14" fill="#FFC66E" opacity="0.85">
+    <animate attributeName="x" values="18;18;25.5;33;40.5;48;55.5;63;70.5;78;85.5;93;100.5;108;115.5;123;130.5;138;145.5;153" keyTimes="0;0.47919;0.48376;0.48833;0.4929;0.49747;0.50204;0.5066;0.51117;0.51574;0.52031;0.52488;0.52945;0.53402;0.53859;0.54316;0.54773;0.5523;0.55687;0.56144" calcMode="discrete" dur="12.04s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.9;0.9;0.15;0.15;0.9" dur="1.05s" repeatCount="indefinite"/>
+  </rect>
+</g>
+<clipPath id="t19"><rect x="18" y="216" height="18" width="0"><animate attributeName="width" values="0;0;7.5;15;22.5;30;37.5;45;52.5;60;67.5;75;82.5;90;97.5;105;112.5;120;127.5;135;142.5;150;157.5;165;172.5;180;187.5;195;202.5;210;217.5;225;232.5;240;247.5;255;262.5;270;277.5;285;292.5;300;307.5;315;322.5;330;337.5;345;352.5" keyTimes="0;0.57307;0.57398;0.57489;0.57581;0.57672;0.57764;0.57855;0.57946;0.58038;0.58129;0.5822;0.58312;0.58403;0.58495;0.58586;0.58677;0.58769;0.5886;0.58952;0.59043;0.59134;0.59226;0.59317;0.59408;0.595;0.59591;0.59683;0.59774;0.59865;0.59957;0.60048;0.6014;0.60231;0.60322;0.60414;0.60505;0.60596;0.60688;0.60779;0.60871;0.60962;0.61053;0.61145;0.61236;0.61328;0.61419;0.6151;0.61602" calcMode="discrete" dur="12.04s" repeatCount="indefinite"/></rect></clipPath>
+<g clip-path="url(#t19)" font-size="12.5" xml:space="preserve"><text x="18" y="228" fill="#a7b0d6">infinity-castle/  boardy/  tidefetch/  homelab/</text></g>
+<clipPath id="t1a"><rect x="18" y="240" height="18" width="0"><animate attributeName="width" values="0;0;7.5;15;22.5;30;37.5;45;52.5;60" keyTimes="0;0.64759;0.65216;0.65673;0.66129;0.66586;0.67043;0.675;0.67957;0.68414" calcMode="discrete" dur="12.04s" repeatCount="indefinite"/></rect></clipPath>
+<g clip-path="url(#t1a)" font-size="12.5" xml:space="preserve"><text x="18" y="252" fill="#4FE0B0">$</text><text x="33" y="252" fill="#e6ebff">uptime</text></g>
+<g opacity="0">
+  <animate attributeName="opacity" values="0;1;0;0" keyTimes="0;0.64759;0.68871;1" calcMode="discrete" dur="12.04s" repeatCount="indefinite"/>
+  <rect x="18" y="241" width="7.5" height="14" fill="#FFC66E" opacity="0.85">
+    <animate attributeName="x" values="18;18;25.5;33;40.5;48;55.5;63;70.5;78" keyTimes="0;0.64759;0.65216;0.65673;0.66129;0.66586;0.67043;0.675;0.67957;0.68414" calcMode="discrete" dur="12.04s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.9;0.9;0.15;0.15;0.9" dur="1.05s" repeatCount="indefinite"/>
+  </rect>
+</g>
+<clipPath id="t1b"><rect x="18" y="264" height="18" width="0"><animate attributeName="width" values="0;0;7.5;15;22.5;30;37.5;45;52.5;60;67.5;75;82.5;90;97.5;105;112.5;120;127.5;135;142.5;150;157.5;165;172.5;180;187.5;195;202.5;210;217.5;225;232.5;240;247.5;255;262.5;270;277.5;285;292.5;300;307.5;315" keyTimes="0;0.69577;0.69669;0.6976;0.69851;0.69943;0.70034;0.70125;0.70217;0.70308;0.704;0.70491;0.70582;0.70674;0.70765;0.70857;0.70948;0.71039;0.71131;0.71222;0.71313;0.71405;0.71496;0.71588;0.71679;0.7177;0.71862;0.71953;0.72045;0.72136;0.72227;0.72319;0.7241;0.72501;0.72593;0.72684;0.72776;0.72867;0.72958;0.7305;0.73141;0.73233;0.73324;0.73415" calcMode="discrete" dur="12.04s" repeatCount="indefinite"/></rect></clipPath>
+<g clip-path="url(#t1b)" font-size="12.5" xml:space="preserve"><text x="18" y="276" fill="#a7b0d6">77 repos, 69 stars, sleep schedule unknown</text></g>
+<g opacity="0">
+  <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.73415;0.74415;1" dur="12.04s" repeatCount="indefinite"/>
+  <text x="18" y="296" font-size="12.5" fill="#4FE0B0">$</text>
+  <rect x="33" y="285" width="7.5" height="14" fill="#FFC66E">
+    <animate attributeName="opacity" values="0.9;0.9;0.15;0.15;0.9" dur="1.05s" repeatCount="indefinite"/>
+  </rect>
+</g>
+</svg>
