@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="1200" height="330" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" role="img" aria-label="11,990 GitHub contributions since 2021">
-<title>11,990 GitHub contributions since 2021</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="1200" height="330" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" role="img" aria-label="11,998 GitHub contributions since 2021">
+<title>11,998 GitHub contributions since 2021</title>
 <defs>
   <linearGradient id="g8" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0%" stop-color="#12162a"/>
@@ -53,7 +53,7 @@
   <circle cx="1174" cy="27" r="3.4" fill="#FFC66E">
     <animate attributeName="opacity" values="1;0.25;1" dur="2.6s" repeatCount="indefinite"/>
   </circle>
-  <text x="1164" y="31" text-anchor="end" font-size="10.5" letter-spacing="0.8" fill="#6f78a3">11,990 total  ·  537-day streak  ·  62% of days active</text>
+  <text x="1164" y="31" text-anchor="end" font-size="10.5" letter-spacing="0.8" fill="#6f78a3">11,998 total  ·  538-day streak  ·  62% of days active</text>
   <line x1="22" y1="43" x2="1178" y2="43" stroke="#2b3152" stroke-width="1" opacity="0.75"/>
   <g><line x1="54" y1="207.5" x2="1174" y2="207.5" stroke="#222846" stroke-width="1" opacity="0.55"/>
   <text x="45" y="211" text-anchor="end" font-size="9.5" fill="#6f78a3" opacity="0.8">184</text><line x1="54" y1="163" x2="1174" y2="163" stroke="#222846" stroke-width="1" opacity="0.55"/>
@@ -97,7 +97,7 @@
     <text x="948.33" y="293" text-anchor="middle" font-size="11" fill="#6f78a3">2,936</text>
   </g><line x1="1052.99" y1="68" x2="1052.99" y2="252" stroke="#2b3152" stroke-width="1" opacity="0.5" class="fi" style="animation-delay:0.8s"/><g class="fu" style="animation-delay:0.8s">
     <text x="1115.49" y="277" text-anchor="middle" font-size="13" font-weight="700" fill="#a7b0d6" letter-spacing="1">2026</text>
-    <text x="1115.49" y="293" text-anchor="middle" font-size="11" fill="#6f78a3">2,857</text>
+    <text x="1115.49" y="293" text-anchor="middle" font-size="11" fill="#6f78a3">2,865</text>
   </g>
-  <text x="1174" y="321" text-anchor="end" font-size="10" fill="#6f78a3" opacity="0.75">monthly contributions · longest streak 537 days · busiest day 96</text>
+  <text x="1174" y="321" text-anchor="end" font-size="10" fill="#6f78a3" opacity="0.75">monthly contributions · longest streak 538 days · busiest day 96</text>
 </svg>
