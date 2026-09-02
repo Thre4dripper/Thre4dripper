@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" width="1200" height="230" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" role="img" aria-label="501 LeetCode problems solved and 2,568 npm installs a year">
+<title>501 LeetCode problems solved and 2,568 npm installs a year</title>
+<defs>
+  <linearGradient id="g1i" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#12162a"/>
+    <stop offset="100%" stop-color="#080b18"/>
+  </linearGradient>
+  <radialGradient id="glow1k" cx="1" cy="0" r="1">
+    <stop offset="0%" stop-color="#f2789b" stop-opacity="0.13"/>
+    <stop offset="100%" stop-color="#f2789b" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid1j" width="26" height="26" patternUnits="userSpaceOnUse">
+    <path d="M26 0H0V26" fill="none" stroke="#222846" stroke-width="1" opacity="0.42"/>
+  </pattern>
+</defs>
+<style>
+.fu{animation:fu .7s cubic-bezier(.2,.7,.3,1) both}
+@keyframes fu{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+.fi{animation:fi .8s ease both}
+@keyframes fi{from{opacity:0}to{opacity:1}}
+.gw{animation:gw 1.05s cubic-bezier(.2,.75,.3,1) both;transform-origin:left center}
+@keyframes gw{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.pop{animation:pop .55s cubic-bezier(.2,1.3,.4,1) both}
+@keyframes pop{from{opacity:0;transform:scale(.55)}to{opacity:1;transform:scale(1)}}
+@keyframes roll1l-k{from{transform:translateY(0)}to{transform:translateY(-302.4px)}}
+.roll1l{animation-name:roll1l-k;animation-timing-function:cubic-bezier(.17,.78,.28,1);animation-fill-mode:both}@keyframes roll1p-k{from{transform:translateY(0)}to{transform:translateY(-336px)}}
+.roll1p{animation-name:roll1p-k;animation-timing-function:cubic-bezier(.17,.78,.28,1);animation-fill-mode:both}@keyframes roll1u-k{from{transform:translateY(0)}to{transform:translateY(-336px)}}
+.roll1u{animation-name:roll1u-k;animation-timing-function:cubic-bezier(.17,.78,.28,1);animation-fill-mode:both}</style>
+
+  <rect x="0.75" y="0.75" width="1198.5" height="228.5" rx="13" fill="url(#g1i)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="228.5" rx="13" fill="url(#grid1j)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="228.5" rx="13" fill="url(#glow1k)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="228.5" rx="13" fill="none" stroke="#2b3152" stroke-width="1.5"/>
+  <text x="22" y="31" font-size="12" letter-spacing="1.6" fill="#6f78a3">~/elsewhere</text>
+  <circle cx="1174" cy="27" r="3.4" fill="#f2789b">
+    <animate attributeName="opacity" values="1;0.25;1" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+  <line x1="22" y1="43" x2="1178" y2="43" stroke="#2b3152" stroke-width="1" opacity="0.75"/>
+  <text x="26" y="70" font-size="10" letter-spacing="1.6" fill="#6f78a3">LEETCODE · @thre4dripper</text>
+  <circle cx="108" cy="138" r="50" fill="none" stroke="#2b3152" stroke-width="11" opacity="0.55"/><circle cx="108" cy="138" r="50" fill="none" stroke="#4FE0B0" stroke-width="11"
+      stroke-linecap="butt" stroke-dasharray="0 314.2" stroke-dashoffset="0"
+      transform="rotate(-90 108 138)">
+      <animate attributeName="stroke-dasharray" values="0 314.2;217 97.2"
+               dur="1.05s" begin="0.3s" fill="freeze"
+               keyTimes="0;1" keySplines="0.2 0.75 0.25 1" calcMode="spline"/>
+    </circle><circle cx="108" cy="138" r="50" fill="none" stroke="#FFC66E" stroke-width="11"
+      stroke-linecap="butt" stroke-dasharray="0 314.2" stroke-dashoffset="-217"
+      transform="rotate(-90 108 138)">
+      <animate attributeName="stroke-dasharray" values="0 314.2;89 225.1"
+               dur="1.05s" begin="0.52s" fill="freeze"
+               keyTimes="0;1" keySplines="0.2 0.75 0.25 1" calcMode="spline"/>
+    </circle><circle cx="108" cy="138" r="50" fill="none" stroke="#f2789b" stroke-width="11"
+      stroke-linecap="butt" stroke-dasharray="0 314.2" stroke-dashoffset="-306"
+      transform="rotate(-90 108 138)">
+      <animate attributeName="stroke-dasharray" values="0 314.2;8.2 306"
+               dur="1.05s" begin="0.74s" fill="freeze"
+               keyTimes="0;1" keySplines="0.2 0.75 0.25 1" calcMode="spline"/>
+    </circle><clipPath id="c1m"><rect x="74" y="121.86" width="18.2" height="28.62"/></clipPath>
+    <g clip-path="url(#c1m)"><g transform="translate(75,144)"><g class="roll1l" style="animation-duration:1.15s;animation-delay:0.35s"><text x="0" y="0" font-size="27" font-weight="700" fill="#e6ebff">0</text><text x="0" y="30.24" font-size="27" font-weight="700" fill="#e6ebff">1</text><text x="0" y="60.48" font-size="27" font-weight="700" fill="#e6ebff">2</text><text x="0" y="90.72" font-size="27" font-weight="700" fill="#e6ebff">3</text><text x="0" y="120.96" font-size="27" font-weight="700" fill="#e6ebff">4</text><text x="0" y="151.2" font-size="27" font-weight="700" fill="#e6ebff">5</text><text x="0" y="181.44" font-size="27" font-weight="700" fill="#e6ebff">6</text><text x="0" y="211.68" font-size="27" font-weight="700" fill="#e6ebff">7</text><text x="0" y="241.92" font-size="27" font-weight="700" fill="#e6ebff">8</text><text x="0" y="272.16" font-size="27" font-weight="700" fill="#e6ebff">9</text><text x="0" y="302.4" font-size="27" font-weight="700" fill="#e6ebff">5</text></g></g></g><clipPath id="c1n"><rect x="90.2" y="121.86" width="18.2" height="28.62"/></clipPath>
+    <g clip-path="url(#c1n)"><g transform="translate(91.2,144)"><g class="roll1l" style="animation-duration:1.225s;animation-delay:0.35s"><text x="0" y="0" font-size="27" font-weight="700" fill="#e6ebff">0</text><text x="0" y="30.24" font-size="27" font-weight="700" fill="#e6ebff">1</text><text x="0" y="60.48" font-size="27" font-weight="700" fill="#e6ebff">2</text><text x="0" y="90.72" font-size="27" font-weight="700" fill="#e6ebff">3</text><text x="0" y="120.96" font-size="27" font-weight="700" fill="#e6ebff">4</text><text x="0" y="151.2" font-size="27" font-weight="700" fill="#e6ebff">5</text><text x="0" y="181.44" font-size="27" font-weight="700" fill="#e6ebff">6</text><text x="0" y="211.68" font-size="27" font-weight="700" fill="#e6ebff">7</text><text x="0" y="241.92" font-size="27" font-weight="700" fill="#e6ebff">8</text><text x="0" y="272.16" font-size="27" font-weight="700" fill="#e6ebff">9</text><text x="0" y="302.4" font-size="27" font-weight="700" fill="#e6ebff">0</text></g></g></g><clipPath id="c1o"><rect x="106.4" y="121.86" width="18.2" height="28.62"/></clipPath>
+    <g clip-path="url(#c1o)"><g transform="translate(107.4,144)"><g class="roll1l" style="animation-duration:1.3s;animation-delay:0.35s"><text x="0" y="0" font-size="27" font-weight="700" fill="#e6ebff">0</text><text x="0" y="30.24" font-size="27" font-weight="700" fill="#e6ebff">1</text><text x="0" y="60.48" font-size="27" font-weight="700" fill="#e6ebff">2</text><text x="0" y="90.72" font-size="27" font-weight="700" fill="#e6ebff">3</text><text x="0" y="120.96" font-size="27" font-weight="700" fill="#e6ebff">4</text><text x="0" y="151.2" font-size="27" font-weight="700" fill="#e6ebff">5</text><text x="0" y="181.44" font-size="27" font-weight="700" fill="#e6ebff">6</text><text x="0" y="211.68" font-size="27" font-weight="700" fill="#e6ebff">7</text><text x="0" y="241.92" font-size="27" font-weight="700" fill="#e6ebff">8</text><text x="0" y="272.16" font-size="27" font-weight="700" fill="#e6ebff">9</text><text x="0" y="302.4" font-size="27" font-weight="700" fill="#e6ebff">1</text></g></g></g><text x="108" y="160" text-anchor="middle" font-size="9.5" letter-spacing="1.2" fill="#6f78a3">SOLVED</text>
+  <g class="fu" style="animation-delay:0.55s">
+      <text x="196" y="106" font-size="11.5" fill="#4FE0B0">Easy</text>
+      <text x="496" y="106" text-anchor="end" font-size="11.5" fill="#a7b0d6">346 / 962</text>
+      <rect x="196" y="113" width="300" height="5" rx="2.5" fill="#2b3152" opacity="0.6"/>
+      <rect x="196" y="113" width="300" height="5" rx="2.5" fill="#4FE0B0"
+            class="gw" style="animation-delay:0.65s;transform-origin:196px 115.5px"/>
+    </g><g class="fu" style="animation-delay:0.65s">
+      <text x="196" y="144" font-size="11.5" fill="#FFC66E">Medium</text>
+      <text x="496" y="144" text-anchor="end" font-size="11.5" fill="#a7b0d6">142 / 2,109</text>
+      <rect x="196" y="151" width="300" height="5" rx="2.5" fill="#2b3152" opacity="0.6"/>
+      <rect x="196" y="151" width="123.12" height="5" rx="2.5" fill="#FFC66E"
+            class="gw" style="animation-delay:0.75s;transform-origin:196px 153.5px"/>
+    </g><g class="fu" style="animation-delay:0.75s">
+      <text x="196" y="182" font-size="11.5" fill="#f2789b">Hard</text>
+      <text x="496" y="182" text-anchor="end" font-size="11.5" fill="#a7b0d6">13 / 970</text>
+      <rect x="196" y="189" width="300" height="5" rx="2.5" fill="#2b3152" opacity="0.6"/>
+      <rect x="196" y="189" width="11.27" height="5" rx="2.5" fill="#f2789b"
+            class="gw" style="animation-delay:0.85s;transform-origin:196px 191.5px"/>
+    </g>
+  <text x="196" y="206" font-size="9.5" fill="#6f78a3" opacity="0.85">global rank #207,614</text>
+  <line x1="565" y1="60" x2="565" y2="206" stroke="#2b3152" stroke-width="1"/>
+  <text x="610" y="70" font-size="10" letter-spacing="1.6" fill="#6f78a3">NPM REGISTRY · PUBLISHED PACKAGES</text>
+  <g class="fu" style="animation-delay:0.4s">
+      <text x="610" y="98" font-size="12.5" fill="#4FE0B0">node-server-init</text>
+    </g>
+    <clipPath id="c1q"><rect x="609" y="105.4" width="20" height="31.8"/></clipPath>
+    <g clip-path="url(#c1q)"><g transform="translate(610,130)"><g class="roll1p" style="animation-duration:1.15s;animation-delay:0.45s"><text x="0" y="0" font-size="30" font-weight="700" fill="#e6ebff">0</text><text x="0" y="33.6" font-size="30" font-weight="700" fill="#e6ebff">1</text><text x="0" y="67.2" font-size="30" font-weight="700" fill="#e6ebff">2</text><text x="0" y="100.8" font-size="30" font-weight="700" fill="#e6ebff">3</text><text x="0" y="134.4" font-size="30" font-weight="700" fill="#e6ebff">4</text><text x="0" y="168" font-size="30" font-weight="700" fill="#e6ebff">5</text><text x="0" y="201.6" font-size="30" font-weight="700" fill="#e6ebff">6</text><text x="0" y="235.2" font-size="30" font-weight="700" fill="#e6ebff">7</text><text x="0" y="268.8" font-size="30" font-weight="700" fill="#e6ebff">8</text><text x="0" y="302.4" font-size="30" font-weight="700" fill="#e6ebff">9</text><text x="0" y="336" font-size="30" font-weight="700" fill="#e6ebff">1</text></g></g></g><text x="628" y="130" font-size="30" font-weight="700" fill="#e6ebff" opacity="0">,<animate attributeName="opacity" values="0;1" begin="1.3125s" dur="0.3s" fill="freeze"/></text><clipPath id="c1r"><rect x="637.44" y="105.4" width="20" height="31.8"/></clipPath>
+    <g clip-path="url(#c1r)"><g transform="translate(638.44,130)"><g class="roll1p" style="animation-duration:1.3s;animation-delay:0.45s"><text x="0" y="0" font-size="30" font-weight="700" fill="#e6ebff">0</text><text x="0" y="33.6" font-size="30" font-weight="700" fill="#e6ebff">1</text><text x="0" y="67.2" font-size="30" font-weight="700" fill="#e6ebff">2</text><text x="0" y="100.8" font-size="30" font-weight="700" fill="#e6ebff">3</text><text x="0" y="134.4" font-size="30" font-weight="700" fill="#e6ebff">4</text><text x="0" y="168" font-size="30" font-weight="700" fill="#e6ebff">5</text><text x="0" y="201.6" font-size="30" font-weight="700" fill="#e6ebff">6</text><text x="0" y="235.2" font-size="30" font-weight="700" fill="#e6ebff">7</text><text x="0" y="268.8" font-size="30" font-weight="700" fill="#e6ebff">8</text><text x="0" y="302.4" font-size="30" font-weight="700" fill="#e6ebff">9</text><text x="0" y="336" font-size="30" font-weight="700" fill="#e6ebff">3</text></g></g></g><clipPath id="c1s"><rect x="655.44" y="105.4" width="20" height="31.8"/></clipPath>
+    <g clip-path="url(#c1s)"><g transform="translate(656.44,130)"><g class="roll1p" style="animation-duration:1.375s;animation-delay:0.45s"><text x="0" y="0" font-size="30" font-weight="700" fill="#e6ebff">0</text><text x="0" y="33.6" font-size="30" font-weight="700" fill="#e6ebff">1</text><text x="0" y="67.2" font-size="30" font-weight="700" fill="#e6ebff">2</text><text x="0" y="100.8" font-size="30" font-weight="700" fill="#e6ebff">3</text><text x="0" y="134.4" font-size="30" font-weight="700" fill="#e6ebff">4</text><text x="0" y="168" font-size="30" font-weight="700" fill="#e6ebff">5</text><text x="0" y="201.6" font-size="30" font-weight="700" fill="#e6ebff">6</text><text x="0" y="235.2" font-size="30" font-weight="700" fill="#e6ebff">7</text><text x="0" y="268.8" font-size="30" font-weight="700" fill="#e6ebff">8</text><text x="0" y="302.4" font-size="30" font-weight="700" fill="#e6ebff">9</text><text x="0" y="336" font-size="30" font-weight="700" fill="#e6ebff">7</text></g></g></g><clipPath id="c1t"><rect x="673.44" y="105.4" width="20" height="31.8"/></clipPath>
+    <g clip-path="url(#c1t)"><g transform="translate(674.44,130)"><g class="roll1p" style="animation-duration:1.45s;animation-delay:0.45s"><text x="0" y="0" font-size="30" font-weight="700" fill="#e6ebff">0</text><text x="0" y="33.6" font-size="30" font-weight="700" fill="#e6ebff">1</text><text x="0" y="67.2" font-size="30" font-weight="700" fill="#e6ebff">2</text><text x="0" y="100.8" font-size="30" font-weight="700" fill="#e6ebff">3</text><text x="0" y="134.4" font-size="30" font-weight="700" fill="#e6ebff">4</text><text x="0" y="168" font-size="30" font-weight="700" fill="#e6ebff">5</text><text x="0" y="201.6" font-size="30" font-weight="700" fill="#e6ebff">6</text><text x="0" y="235.2" font-size="30" font-weight="700" fill="#e6ebff">7</text><text x="0" y="268.8" font-size="30" font-weight="700" fill="#e6ebff">8</text><text x="0" y="302.4" font-size="30" font-weight="700" fill="#e6ebff">9</text><text x="0" y="336" font-size="30" font-weight="700" fill="#e6ebff">3</text></g></g></g>
+    <text x="610" y="150" font-size="10" fill="#6f78a3">installs in the last 12 months</text>
+    <rect x="610" y="162" width="268" height="5" rx="2.5" fill="#2b3152" opacity="0.6"/>
+    <rect x="610" y="162" width="268" height="5" rx="2.5" fill="#a884de"
+          class="gw" style="animation-delay:0.7s;transform-origin:610px 164.5px"/>
+    <text x="610" y="185" font-size="10" fill="#6f78a3" opacity="0.9">v1.1.11 · 42 releases published</text><g class="fu" style="animation-delay:0.52s">
+      <text x="904" y="98" font-size="12.5" fill="#4FE0B0">express-master-controller</text>
+    </g>
+    <clipPath id="c1v"><rect x="903" y="105.4" width="20" height="31.8"/></clipPath>
+    <g clip-path="url(#c1v)"><g transform="translate(904,130)"><g class="roll1u" style="animation-duration:1.15s;animation-delay:0.6s"><text x="0" y="0" font-size="30" font-weight="700" fill="#e6ebff">0</text><text x="0" y="33.6" font-size="30" font-weight="700" fill="#e6ebff">1</text><text x="0" y="67.2" font-size="30" font-weight="700" fill="#e6ebff">2</text><text x="0" y="100.8" font-size="30" font-weight="700" fill="#e6ebff">3</text><text x="0" y="134.4" font-size="30" font-weight="700" fill="#e6ebff">4</text><text x="0" y="168" font-size="30" font-weight="700" fill="#e6ebff">5</text><text x="0" y="201.6" font-size="30" font-weight="700" fill="#e6ebff">6</text><text x="0" y="235.2" font-size="30" font-weight="700" fill="#e6ebff">7</text><text x="0" y="268.8" font-size="30" font-weight="700" fill="#e6ebff">8</text><text x="0" y="302.4" font-size="30" font-weight="700" fill="#e6ebff">9</text><text x="0" y="336" font-size="30" font-weight="700" fill="#e6ebff">1</text></g></g></g><text x="922" y="130" font-size="30" font-weight="700" fill="#e6ebff" opacity="0">,<animate attributeName="opacity" values="0;1" begin="1.4625s" dur="0.3s" fill="freeze"/></text><clipPath id="c1w"><rect x="931.44" y="105.4" width="20" height="31.8"/></clipPath>
+    <g clip-path="url(#c1w)"><g transform="translate(932.44,130)"><g class="roll1u" style="animation-duration:1.3s;animation-delay:0.6s"><text x="0" y="0" font-size="30" font-weight="700" fill="#e6ebff">0</text><text x="0" y="33.6" font-size="30" font-weight="700" fill="#e6ebff">1</text><text x="0" y="67.2" font-size="30" font-weight="700" fill="#e6ebff">2</text><text x="0" y="100.8" font-size="30" font-weight="700" fill="#e6ebff">3</text><text x="0" y="134.4" font-size="30" font-weight="700" fill="#e6ebff">4</text><text x="0" y="168" font-size="30" font-weight="700" fill="#e6ebff">5</text><text x="0" y="201.6" font-size="30" font-weight="700" fill="#e6ebff">6</text><text x="0" y="235.2" font-size="30" font-weight="700" fill="#e6ebff">7</text><text x="0" y="268.8" font-size="30" font-weight="700" fill="#e6ebff">8</text><text x="0" y="302.4" font-size="30" font-weight="700" fill="#e6ebff">9</text><text x="0" y="336" font-size="30" font-weight="700" fill="#e6ebff">1</text></g></g></g><clipPath id="c1x"><rect x="949.44" y="105.4" width="20" height="31.8"/></clipPath>
+    <g clip-path="url(#c1x)"><g transform="translate(950.44,130)"><g class="roll1u" style="animation-duration:1.375s;animation-delay:0.6s"><text x="0" y="0" font-size="30" font-weight="700" fill="#e6ebff">0</text><text x="0" y="33.6" font-size="30" font-weight="700" fill="#e6ebff">1</text><text x="0" y="67.2" font-size="30" font-weight="700" fill="#e6ebff">2</text><text x="0" y="100.8" font-size="30" font-weight="700" fill="#e6ebff">3</text><text x="0" y="134.4" font-size="30" font-weight="700" fill="#e6ebff">4</text><text x="0" y="168" font-size="30" font-weight="700" fill="#e6ebff">5</text><text x="0" y="201.6" font-size="30" font-weight="700" fill="#e6ebff">6</text><text x="0" y="235.2" font-size="30" font-weight="700" fill="#e6ebff">7</text><text x="0" y="268.8" font-size="30" font-weight="700" fill="#e6ebff">8</text><text x="0" y="302.4" font-size="30" font-weight="700" fill="#e6ebff">9</text><text x="0" y="336" font-size="30" font-weight="700" fill="#e6ebff">9</text></g></g></g><clipPath id="c1y"><rect x="967.44" y="105.4" width="20" height="31.8"/></clipPath>
+    <g clip-path="url(#c1y)"><g transform="translate(968.44,130)"><g class="roll1u" style="animation-duration:1.45s;animation-delay:0.6s"><text x="0" y="0" font-size="30" font-weight="700" fill="#e6ebff">0</text><text x="0" y="33.6" font-size="30" font-weight="700" fill="#e6ebff">1</text><text x="0" y="67.2" font-size="30" font-weight="700" fill="#e6ebff">2</text><text x="0" y="100.8" font-size="30" font-weight="700" fill="#e6ebff">3</text><text x="0" y="134.4" font-size="30" font-weight="700" fill="#e6ebff">4</text><text x="0" y="168" font-size="30" font-weight="700" fill="#e6ebff">5</text><text x="0" y="201.6" font-size="30" font-weight="700" fill="#e6ebff">6</text><text x="0" y="235.2" font-size="30" font-weight="700" fill="#e6ebff">7</text><text x="0" y="268.8" font-size="30" font-weight="700" fill="#e6ebff">8</text><text x="0" y="302.4" font-size="30" font-weight="700" fill="#e6ebff">9</text><text x="0" y="336" font-size="30" font-weight="700" fill="#e6ebff">5</text></g></g></g>
+    <text x="904" y="150" font-size="10" fill="#6f78a3">installs in the last 12 months</text>
+    <rect x="904" y="162" width="268" height="5" rx="2.5" fill="#2b3152" opacity="0.6"/>
+    <rect x="904" y="162" width="233.26" height="5" rx="2.5" fill="#a884de"
+          class="gw" style="animation-delay:0.82s;transform-origin:904px 164.5px"/>
+    <text x="904" y="185" font-size="10" fill="#6f78a3" opacity="0.9">v1.2.2 · 28 releases published</text>
+  <text x="610" y="206" font-size="9.5" fill="#6f78a3" opacity="0.85">2,568 installs a year across 2 packages</text>
+</svg>

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="1200" height="330" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" role="img" aria-label="11,990 GitHub contributions since 2021">
+<title>11,990 GitHub contributions since 2021</title>
+<defs>
+  <linearGradient id="g8" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#12162a"/>
+    <stop offset="100%" stop-color="#080b18"/>
+  </linearGradient>
+  <radialGradient id="glowa" cx="1" cy="0" r="1">
+    <stop offset="0%" stop-color="#FFC66E" stop-opacity="0.13"/>
+    <stop offset="100%" stop-color="#FFC66E" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid9" width="26" height="26" patternUnits="userSpaceOnUse">
+    <path d="M26 0H0V26" fill="none" stroke="#222846" stroke-width="1" opacity="0.42"/>
+  </pattern>
+  <linearGradient id="fill3" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#FFC66E" stop-opacity="0.42"/>
+    <stop offset="55%" stop-color="#B4611B" stop-opacity="0.14"/>
+    <stop offset="100%" stop-color="#B4611B" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="str4" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#4FE0B0"/>
+    <stop offset="52%" stop-color="#FFC66E"/>
+    <stop offset="100%" stop-color="#f2789b"/>
+  </linearGradient>
+  <radialGradient id="soft7">
+    <stop offset="0%" stop-color="#FFC66E" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#FFC66E" stop-opacity="0"/>
+  </radialGradient>
+  <clipPath id="wipe5"><rect x="0" y="0" width="0" height="330">
+    <animate attributeName="width" values="0;1200" dur="1.9s" begin="0.3s" fill="freeze"
+             keySplines="0.22 0.7 0.25 1" keyTimes="0;1" calcMode="spline"/>
+  </rect></clipPath>
+  <path id="path6" d="M54,252C56.79,252 65.14,252 70.72,252C76.29,252 81.86,252.04 87.43,252C93,251.96 98.58,254.58 104.15,251.76C109.72,248.94 115.29,235.35 120.87,235.07C126.44,234.79 132.01,249.62 137.58,250.07C143.15,250.51 148.73,239.14 154.3,237.73C159.87,236.32 165.44,240.19 171.01,241.6C176.59,243.01 182.16,254.66 187.73,246.2C193.3,237.73 198.88,193.11 204.45,190.81C210.02,188.51 215.59,225.72 221.16,232.41C226.74,239.1 232.31,230.23 237.88,230.96C243.45,231.68 249.02,241.56 254.6,236.76C260.17,231.97 265.74,202.99 271.31,202.18C276.89,201.37 282.46,232.29 288.03,231.93C293.6,231.56 299.17,197.46 304.75,200C310.32,202.54 315.89,240.31 321.46,247.16C327.03,254.02 332.61,254.66 338.18,241.12C343.75,227.57 349.32,177.39 354.9,165.9C360.47,154.41 366.04,173.56 371.61,172.19C377.18,170.82 382.76,156.55 388.33,157.68C393.9,158.81 399.47,169.85 405.04,178.96C410.62,188.07 416.19,200.81 421.76,212.34C427.33,223.87 432.91,247.57 438.48,248.13C444.05,248.69 449.62,217.38 455.19,215.72C460.77,214.07 466.34,235.63 471.91,238.21C477.48,240.79 483.05,232.65 488.63,231.2C494.2,229.75 499.77,229.95 505.34,229.51C510.92,229.06 516.49,229.51 522.06,228.54C527.63,227.57 533.2,235.76 538.78,223.7C544.35,211.65 549.92,159.45 555.49,156.23C561.06,153 566.64,192.14 572.21,204.36C577.78,216.57 583.35,222.49 588.93,229.51C594.5,236.52 600.07,246.32 605.64,246.44C611.21,246.56 616.79,239.54 622.36,230.23C627.93,220.92 633.5,200.28 639.07,190.57C644.65,180.86 650.22,165.14 655.79,171.95C661.36,178.76 666.94,221.12 672.51,231.44C678.08,241.76 683.65,231.97 689.22,233.86C694.8,235.76 700.37,247.24 705.94,242.81C711.51,238.38 717.08,211.13 722.66,207.26C728.23,203.39 733.8,220.24 739.37,219.59C744.95,218.95 750.52,204.4 756.09,203.39C761.66,202.38 767.23,212.42 772.81,213.55C778.38,214.67 783.95,210.89 789.52,210.16C795.09,209.43 800.67,204.6 806.24,209.19C811.81,213.79 817.38,235.07 822.96,237.73C828.53,240.39 834.1,224.99 839.67,225.15C845.24,225.32 850.82,237.29 856.39,238.7C861.96,240.11 867.53,239.5 873.1,233.62C878.68,227.73 884.25,210.44 889.82,203.39C895.39,196.33 900.97,193.55 906.54,191.3C912.11,189.04 917.68,192.71 923.25,189.85C928.83,186.98 934.4,175.46 939.97,174.13C945.54,172.79 951.11,178.12 956.69,181.86C962.26,185.61 967.83,202.62 973.4,196.62C978.98,190.61 984.55,150.95 990.12,145.83C995.69,140.71 1001.26,158.2 1006.84,165.9C1012.41,173.6 1017.98,186.22 1023.55,192.02C1029.12,197.83 1034.7,200.08 1040.27,200.73C1045.84,201.37 1051.41,193.96 1056.99,195.89C1062.56,197.83 1068.13,212.05 1073.7,212.34C1079.27,212.62 1084.85,208.67 1090.42,197.58C1095.99,186.5 1101.56,166.43 1107.13,145.83C1112.71,125.23 1118.28,67.23 1123.85,74C1129.42,80.77 1135,175.9 1140.57,186.46C1146.14,197.02 1151.71,138.98 1157.28,137.36C1162.86,135.75 1171.21,170.22 1174,176.79" fill="none"/>
+</defs>
+<style>
+.fu{animation:fu .7s cubic-bezier(.2,.7,.3,1) both}
+@keyframes fu{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+.fi{animation:fi .8s ease both}
+@keyframes fi{from{opacity:0}to{opacity:1}}
+.gw{animation:gw 1.05s cubic-bezier(.2,.75,.3,1) both;transform-origin:left center}
+@keyframes gw{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.pop{animation:pop .55s cubic-bezier(.2,1.3,.4,1) both}
+@keyframes pop{from{opacity:0;transform:scale(.55)}to{opacity:1;transform:scale(1)}}
+
+.draw{stroke-dasharray:2327;stroke-dashoffset:2327;animation:draw 2.1s cubic-bezier(.25,.7,.25,1) .3s both}
+@keyframes draw{to{stroke-dashoffset:0}}</style>
+
+  <rect x="0.75" y="0.75" width="1198.5" height="328.5" rx="13" fill="url(#g8)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="328.5" rx="13" fill="url(#grid9)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="328.5" rx="13" fill="url(#glowa)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="328.5" rx="13" fill="none" stroke="#2b3152" stroke-width="1.5"/>
+  <text x="22" y="31" font-size="12" letter-spacing="1.6" fill="#6f78a3">~/contributions --since 2021</text>
+  <circle cx="1174" cy="27" r="3.4" fill="#FFC66E">
+    <animate attributeName="opacity" values="1;0.25;1" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1164" y="31" text-anchor="end" font-size="10.5" letter-spacing="0.8" fill="#6f78a3">11,990 total  ·  537-day streak  ·  62% of days active</text>
+  <line x1="22" y1="43" x2="1178" y2="43" stroke="#2b3152" stroke-width="1" opacity="0.75"/>
+  <g><line x1="54" y1="207.5" x2="1174" y2="207.5" stroke="#222846" stroke-width="1" opacity="0.55"/>
+  <text x="45" y="211" text-anchor="end" font-size="9.5" fill="#6f78a3" opacity="0.8">184</text><line x1="54" y1="163" x2="1174" y2="163" stroke="#222846" stroke-width="1" opacity="0.55"/>
+  <text x="45" y="166.5" text-anchor="end" font-size="9.5" fill="#6f78a3" opacity="0.8">368</text><line x1="54" y1="118.5" x2="1174" y2="118.5" stroke="#222846" stroke-width="1" opacity="0.55"/>
+  <text x="45" y="122" text-anchor="end" font-size="9.5" fill="#6f78a3" opacity="0.8">552</text></g>
+  <g clip-path="url(#wipe5)">
+    <path d="M54,252C56.79,252 65.14,252 70.72,252C76.29,252 81.86,252.04 87.43,252C93,251.96 98.58,254.58 104.15,251.76C109.72,248.94 115.29,235.35 120.87,235.07C126.44,234.79 132.01,249.62 137.58,250.07C143.15,250.51 148.73,239.14 154.3,237.73C159.87,236.32 165.44,240.19 171.01,241.6C176.59,243.01 182.16,254.66 187.73,246.2C193.3,237.73 198.88,193.11 204.45,190.81C210.02,188.51 215.59,225.72 221.16,232.41C226.74,239.1 232.31,230.23 237.88,230.96C243.45,231.68 249.02,241.56 254.6,236.76C260.17,231.97 265.74,202.99 271.31,202.18C276.89,201.37 282.46,232.29 288.03,231.93C293.6,231.56 299.17,197.46 304.75,200C310.32,202.54 315.89,240.31 321.46,247.16C327.03,254.02 332.61,254.66 338.18,241.12C343.75,227.57 349.32,177.39 354.9,165.9C360.47,154.41 366.04,173.56 371.61,172.19C377.18,170.82 382.76,156.55 388.33,157.68C393.9,158.81 399.47,169.85 405.04,178.96C410.62,188.07 416.19,200.81 421.76,212.34C427.33,223.87 432.91,247.57 438.48,248.13C444.05,248.69 449.62,217.38 455.19,215.72C460.77,214.07 466.34,235.63 471.91,238.21C477.48,240.79 483.05,232.65 488.63,231.2C494.2,229.75 499.77,229.95 505.34,229.51C510.92,229.06 516.49,229.51 522.06,228.54C527.63,227.57 533.2,235.76 538.78,223.7C544.35,211.65 549.92,159.45 555.49,156.23C561.06,153 566.64,192.14 572.21,204.36C577.78,216.57 583.35,222.49 588.93,229.51C594.5,236.52 600.07,246.32 605.64,246.44C611.21,246.56 616.79,239.54 622.36,230.23C627.93,220.92 633.5,200.28 639.07,190.57C644.65,180.86 650.22,165.14 655.79,171.95C661.36,178.76 666.94,221.12 672.51,231.44C678.08,241.76 683.65,231.97 689.22,233.86C694.8,235.76 700.37,247.24 705.94,242.81C711.51,238.38 717.08,211.13 722.66,207.26C728.23,203.39 733.8,220.24 739.37,219.59C744.95,218.95 750.52,204.4 756.09,203.39C761.66,202.38 767.23,212.42 772.81,213.55C778.38,214.67 783.95,210.89 789.52,210.16C795.09,209.43 800.67,204.6 806.24,209.19C811.81,213.79 817.38,235.07 822.96,237.73C828.53,240.39 834.1,224.99 839.67,225.15C845.24,225.32 850.82,237.29 856.39,238.7C861.96,240.11 867.53,239.5 873.1,233.62C878.68,227.73 884.25,210.44 889.82,203.39C895.39,196.33 900.97,193.55 906.54,191.3C912.11,189.04 917.68,192.71 923.25,189.85C928.83,186.98 934.4,175.46 939.97,174.13C945.54,172.79 951.11,178.12 956.69,181.86C962.26,185.61 967.83,202.62 973.4,196.62C978.98,190.61 984.55,150.95 990.12,145.83C995.69,140.71 1001.26,158.2 1006.84,165.9C1012.41,173.6 1017.98,186.22 1023.55,192.02C1029.12,197.83 1034.7,200.08 1040.27,200.73C1045.84,201.37 1051.41,193.96 1056.99,195.89C1062.56,197.83 1068.13,212.05 1073.7,212.34C1079.27,212.62 1084.85,208.67 1090.42,197.58C1095.99,186.5 1101.56,166.43 1107.13,145.83C1112.71,125.23 1118.28,67.23 1123.85,74C1129.42,80.77 1135,175.9 1140.57,186.46C1146.14,197.02 1151.71,138.98 1157.28,137.36C1162.86,135.75 1171.21,170.22 1174,176.79L1174,252L54,252Z" fill="url(#fill3)"/>
+  </g>
+  <use href="#path6" stroke="url(#str4)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" class="draw"/>
+  <circle r="18" fill="url(#soft7)" opacity="0">
+    <animate attributeName="opacity" values="0;0.85;0.85;0" keyTimes="0;0.06;0.94;1" dur="7s" begin="0.4s" repeatCount="indefinite"/>
+    <animateMotion dur="7s" begin="0.4s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear">
+      <mpath href="#path6"/>
+    </animateMotion>
+  </circle>
+  <circle r="3.4" fill="#fff7e6" opacity="0">
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.06;0.94;1" dur="7s" begin="0.4s" repeatCount="indefinite"/>
+    <animateMotion dur="7s" begin="0.4s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear">
+      <mpath href="#path6"/>
+    </animateMotion>
+  </circle>
+  <g class="fu" style="animation-delay:1.95s">
+    <line x1="1123.85" y1="66" x2="1123.85" y2="50" stroke="#FFC66E" stroke-width="1.2" opacity="0.65"/>
+    <text x="1115.85" y="47" text-anchor="end" font-size="11" fill="#FFC66E">May 2026 · 736</text>
+  </g>
+  <line x1="54" y1="252" x2="1174" y2="252" stroke="#2b3152" stroke-width="1.2"/>
+  <g class="fu" style="animation-delay:0.35s">
+    <text x="145.94" y="277" text-anchor="middle" font-size="13" font-weight="700" fill="#a7b0d6" letter-spacing="1">2021</text>
+    <text x="145.94" y="293" text-anchor="middle" font-size="11" fill="#6f78a3">626</text>
+  </g><line x1="250.6" y1="68" x2="250.6" y2="252" stroke="#2b3152" stroke-width="1" opacity="0.5" class="fi" style="animation-delay:0.44s"/><g class="fu" style="animation-delay:0.44s">
+    <text x="346.54" y="277" text-anchor="middle" font-size="13" font-weight="700" fill="#a7b0d6" letter-spacing="1">2022</text>
+    <text x="346.54" y="293" text-anchor="middle" font-size="11" fill="#6f78a3">2,190</text>
+  </g><line x1="451.19" y1="68" x2="451.19" y2="252" stroke="#2b3152" stroke-width="1" opacity="0.5" class="fi" style="animation-delay:0.53s"/><g class="fu" style="animation-delay:0.53s">
+    <text x="547.13" y="277" text-anchor="middle" font-size="13" font-weight="700" fill="#a7b0d6" letter-spacing="1">2023</text>
+    <text x="547.13" y="293" text-anchor="middle" font-size="11" fill="#6f78a3">1,653</text>
+  </g><line x1="651.79" y1="68" x2="651.79" y2="252" stroke="#2b3152" stroke-width="1" opacity="0.5" class="fi" style="animation-delay:0.62s"/><g class="fu" style="animation-delay:0.62s">
+    <text x="747.73" y="277" text-anchor="middle" font-size="13" font-weight="700" fill="#a7b0d6" letter-spacing="1">2024</text>
+    <text x="747.73" y="293" text-anchor="middle" font-size="11" fill="#6f78a3">1,728</text>
+  </g><line x1="852.39" y1="68" x2="852.39" y2="252" stroke="#2b3152" stroke-width="1" opacity="0.5" class="fi" style="animation-delay:0.71s"/><g class="fu" style="animation-delay:0.71s">
+    <text x="948.33" y="277" text-anchor="middle" font-size="13" font-weight="700" fill="#a7b0d6" letter-spacing="1">2025</text>
+    <text x="948.33" y="293" text-anchor="middle" font-size="11" fill="#6f78a3">2,936</text>
+  </g><line x1="1052.99" y1="68" x2="1052.99" y2="252" stroke="#2b3152" stroke-width="1" opacity="0.5" class="fi" style="animation-delay:0.8s"/><g class="fu" style="animation-delay:0.8s">
+    <text x="1115.49" y="277" text-anchor="middle" font-size="13" font-weight="700" fill="#a7b0d6" letter-spacing="1">2026</text>
+    <text x="1115.49" y="293" text-anchor="middle" font-size="11" fill="#6f78a3">2,857</text>
+  </g>
+  <text x="1174" y="321" text-anchor="end" font-size="10" fill="#6f78a3" opacity="0.75">monthly contributions · longest streak 537 days · busiest day 96</text>
+</svg>
