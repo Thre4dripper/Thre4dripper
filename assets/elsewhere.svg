@@ -78,7 +78,7 @@
       <rect x="196" y="189" width="11.27" height="5" rx="2.5" fill="#f2789b"
             class="gw" style="animation-delay:0.85s;transform-origin:196px 191.5px"/>
     </g>
-  <text x="196" y="206" font-size="9.5" fill="#6f78a3" opacity="0.85">global rank #207,804</text>
+  <text x="196" y="206" font-size="9.5" fill="#6f78a3" opacity="0.85">global rank #207,987</text>
   <line x1="565" y1="60" x2="565" y2="206" stroke="#2b3152" stroke-width="1"/>
   <text x="610" y="70" font-size="10" letter-spacing="1.6" fill="#6f78a3">NPM REGISTRY · PUBLISHED PACKAGES</text>
   <g class="fu" style="animation-delay:0.4s">
