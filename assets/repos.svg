@@ -32,7 +32,7 @@
   <circle cx="1174" cy="27" r="3.4" fill="#4FE0B0">
     <animate attributeName="opacity" values="1;0.25;1" dur="2.6s" repeatCount="indefinite"/>
   </circle>
-  <text x="1164" y="31" text-anchor="end" font-size="10.5" letter-spacing="0.8" fill="#6f78a3">72 original repos · 69 stars</text>
+  <text x="1164" y="31" text-anchor="end" font-size="10.5" letter-spacing="0.8" fill="#6f78a3">73 original repos · 69 stars</text>
   <line x1="22" y1="43" x2="1178" y2="43" stroke="#2b3152" stroke-width="1" opacity="0.75"/>
   <g class="fu" style="animation-delay:0.2s">
     <circle cx="30" cy="80" r="4" fill="#f34b7d"/>
