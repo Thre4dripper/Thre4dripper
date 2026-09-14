@@ -38,30 +38,30 @@
              keyTimes="0;1" keySplines="0.2 0.75 0.25 1" calcMode="spline"/>
   </rect></clipPath>
   <rect x="26" y="62" width="448" height="22" rx="6" fill="#2b3152" opacity="0.45"/>
-  <g clip-path="url(#bar1g)"><rect x="26" y="62" width="129.99" height="22" fill="#3178c6" opacity="0">
+  <g clip-path="url(#bar1g)"><rect x="26" y="62" width="129.67" height="22" fill="#3178c6" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="0.25s" dur="0.45s" fill="freeze"/>
-    </rect><rect x="155.99" y="62" width="70.1" height="22" fill="#A97BFF" opacity="0">
+    </rect><rect x="155.67" y="62" width="69.93" height="22" fill="#A97BFF" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="0.31s" dur="0.45s" fill="freeze"/>
-    </rect><rect x="226.09" y="62" width="61.76" height="22" fill="#f1e05a" opacity="0">
+    </rect><rect x="225.6" y="62" width="61.61" height="22" fill="#f1e05a" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="0.37s" dur="0.45s" fill="freeze"/>
-    </rect><rect x="287.86" y="62" width="55.21" height="22" fill="#b07219" opacity="0">
+    </rect><rect x="287.21" y="62" width="55.08" height="22" fill="#b07219" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="0.43s" dur="0.45s" fill="freeze"/>
-    </rect><rect x="343.07" y="62" width="46.72" height="22" fill="#f34b7d" opacity="0">
+    </rect><rect x="342.29" y="62" width="46.61" height="22" fill="#f34b7d" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="0.49s" dur="0.45s" fill="freeze"/>
-    </rect><rect x="389.79" y="62" width="25.48" height="22" fill="#89e051" opacity="0">
+    </rect><rect x="388.9" y="62" width="26.45" height="22" fill="#89e051" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="0.55s" dur="0.45s" fill="freeze"/>
-    </rect><rect x="415.27" y="62" width="20.09" height="22" fill="#00ADD8" opacity="0">
+    </rect><rect x="415.34" y="62" width="20.04" height="22" fill="#00ADD8" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="0.61s" dur="0.45s" fill="freeze"/>
-    </rect><rect x="435.36" y="62" width="11.15" height="22" fill="#563d7c" opacity="0">
+    </rect><rect x="435.38" y="62" width="11.12" height="22" fill="#563d7c" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="0.67s" dur="0.45s" fill="freeze"/>
     </rect><rect x="446.5" y="62" width="27.5" height="22" fill="#6f78a3" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="0.73s" dur="0.45s" fill="freeze"/>
     </rect></g>
-  <text x="26" y="100" font-size="9.5" letter-spacing="1" fill="#6f78a3">6.4 MB OF SOURCE ACROSS 72 REPOSITORIES</text>
+  <text x="26" y="100" font-size="9.5" letter-spacing="1" fill="#6f78a3">6.5 MB OF SOURCE ACROSS 72 REPOSITORIES</text>
   <g class="fu" style="animation-delay:0.4s">
       <circle cx="30" cy="118" r="4" fill="#3178c6"/>
       <text x="41" y="122" font-size="11.5" fill="#e6ebff">TypeScript</text>
-      <text x="238" y="122" text-anchor="end" font-size="11" fill="#a7b0d6">29.0%</text>
+      <text x="238" y="122" text-anchor="end" font-size="11" fill="#a7b0d6">28.9%</text>
       <rect x="26" y="128" width="212" height="3.5" rx="1.75" fill="#2b3152" opacity="0.6"/>
       <rect x="26" y="128" width="212" height="3.5" rx="1.75" fill="#3178c6" opacity="0.9"
             class="gw" style="animation-delay:0.5s;transform-origin:26px 130px"/>
@@ -96,9 +96,9 @@
     </g><g class="fu" style="animation-delay:0.75s">
       <circle cx="266" cy="118" r="4" fill="#89e051"/>
       <text x="277" y="122" font-size="11.5" fill="#e6ebff">Shell</text>
-      <text x="474" y="122" text-anchor="end" font-size="11" fill="#a7b0d6">5.7%</text>
+      <text x="474" y="122" text-anchor="end" font-size="11" fill="#a7b0d6">5.9%</text>
       <rect x="262" y="128" width="212" height="3.5" rx="1.75" fill="#2b3152" opacity="0.6"/>
-      <rect x="262" y="128" width="41.55" height="3.5" rx="1.75" fill="#89e051" opacity="0.9"
+      <rect x="262" y="128" width="43.23" height="3.5" rx="1.75" fill="#89e051" opacity="0.9"
             class="gw" style="animation-delay:0.85s;transform-origin:262px 130px"/>
     </g><g class="fu" style="animation-delay:0.82s">
       <circle cx="266" cy="151" r="4" fill="#00ADD8"/>
@@ -119,7 +119,7 @@
       <text x="277" y="221" font-size="11.5" fill="#e6ebff">Other</text>
       <text x="474" y="221" text-anchor="end" font-size="11" fill="#a7b0d6">6.1%</text>
       <rect x="262" y="227" width="212" height="3.5" rx="1.75" fill="#2b3152" opacity="0.6"/>
-      <rect x="262" y="227" width="44.84" height="3.5" rx="1.75" fill="#6f78a3" opacity="0.9"
+      <rect x="262" y="227" width="44.95" height="3.5" rx="1.75" fill="#6f78a3" opacity="0.9"
             class="gw" style="animation-delay:1.06s;transform-origin:262px 229px"/>
     </g>
   <text x="26" y="298" font-size="9" fill="#6f78a3" opacity="0.8">counted from the GitHub languages API, every original repo, weighted by bytes</text>
