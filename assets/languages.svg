@@ -38,23 +38,23 @@
              keyTimes="0;1" keySplines="0.2 0.75 0.25 1" calcMode="spline"/>
   </rect></clipPath>
   <rect x="26" y="62" width="448" height="22" rx="6" fill="#2b3152" opacity="0.45"/>
-  <g clip-path="url(#bar1g)"><rect x="26" y="62" width="218.11" height="22" fill="#3572A5" opacity="0">
+  <g clip-path="url(#bar1g)"><rect x="26" y="62" width="218.06" height="22" fill="#3572A5" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="0.25s" dur="0.45s" fill="freeze"/>
-    </rect><rect x="244.11" y="62" width="87.71" height="22" fill="#3178c6" opacity="0">
+    </rect><rect x="244.06" y="62" width="87.73" height="22" fill="#3178c6" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="0.31s" dur="0.45s" fill="freeze"/>
-    </rect><rect x="331.82" y="62" width="29.86" height="22" fill="#A97BFF" opacity="0">
+    </rect><rect x="331.79" y="62" width="29.85" height="22" fill="#A97BFF" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="0.37s" dur="0.45s" fill="freeze"/>
-    </rect><rect x="361.68" y="62" width="27.32" height="22" fill="#f1e05a" opacity="0">
+    </rect><rect x="361.64" y="62" width="27.31" height="22" fill="#f1e05a" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="0.43s" dur="0.45s" fill="freeze"/>
-    </rect><rect x="389" y="62" width="24.76" height="22" fill="#b07219" opacity="0">
+    </rect><rect x="388.95" y="62" width="24.75" height="22" fill="#b07219" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="0.49s" dur="0.45s" fill="freeze"/>
-    </rect><rect x="413.76" y="62" width="20.07" height="22" fill="#f34b7d" opacity="0">
+    </rect><rect x="413.7" y="62" width="20.07" height="22" fill="#f34b7d" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="0.55s" dur="0.45s" fill="freeze"/>
-    </rect><rect x="433.83" y="62" width="10.99" height="22" fill="#89e051" opacity="0">
+    </rect><rect x="433.76" y="62" width="10.99" height="22" fill="#89e051" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="0.61s" dur="0.45s" fill="freeze"/>
-    </rect><rect x="444.82" y="62" width="8.49" height="22" fill="#00ADD8" opacity="0">
+    </rect><rect x="444.75" y="62" width="8.49" height="22" fill="#00ADD8" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="0.67s" dur="0.45s" fill="freeze"/>
-    </rect><rect x="453.31" y="62" width="20.69" height="22" fill="#6f78a3" opacity="0">
+    </rect><rect x="453.24" y="62" width="20.76" height="22" fill="#6f78a3" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="0.73s" dur="0.45s" fill="freeze"/>
     </rect></g>
   <text x="26" y="100" font-size="9.5" letter-spacing="1" fill="#6f78a3">15.7 MB OF SOURCE ACROSS 75 REPOSITORIES</text>
@@ -70,7 +70,7 @@
       <text x="41" y="155" font-size="11.5" fill="#e6ebff">TypeScript</text>
       <text x="238" y="155" text-anchor="end" font-size="11" fill="#a7b0d6">19.6%</text>
       <rect x="26" y="161" width="212" height="3.5" rx="1.75" fill="#2b3152" opacity="0.6"/>
-      <rect x="26" y="161" width="85.26" height="3.5" rx="1.75" fill="#3178c6" opacity="0.9"
+      <rect x="26" y="161" width="85.29" height="3.5" rx="1.75" fill="#3178c6" opacity="0.9"
             class="gw" style="animation-delay:0.57s;transform-origin:26px 163px"/>
     </g><g class="fu" style="animation-delay:0.54s">
       <circle cx="30" cy="184" r="4" fill="#A97BFF"/>
@@ -119,7 +119,7 @@
       <text x="277" y="221" font-size="11.5" fill="#e6ebff">Other</text>
       <text x="474" y="221" text-anchor="end" font-size="11" fill="#a7b0d6">4.6%</text>
       <rect x="262" y="227" width="212" height="3.5" rx="1.75" fill="#2b3152" opacity="0.6"/>
-      <rect x="262" y="227" width="20.11" height="3.5" rx="1.75" fill="#6f78a3" opacity="0.9"
+      <rect x="262" y="227" width="20.18" height="3.5" rx="1.75" fill="#6f78a3" opacity="0.9"
             class="gw" style="animation-delay:1.06s;transform-origin:262px 229px"/>
     </g>
   <text x="26" y="298" font-size="9" fill="#6f78a3" opacity="0.8">counted from the GitHub languages API, every original repo, weighted by bytes</text>
