@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 316" width="500" height="316" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace" role="img" aria-label="Language breakdown: Python 49%, TypeScript 20%, Kotlin 7%, JavaScript 6%, Java 6%, C++ 4%, Shell 2%, Go 2%, Other 5%">
 <title>Language breakdown: Python 49%, TypeScript 20%, Kotlin 7%, JavaScript 6%, Java 6%, C++ 4%, Shell 2%, Go 2%, Other 5%</title>
 <defs>
-  <linearGradient id="g1d" x1="0" y1="0" x2="0" y2="1">
+  <linearGradient id="g3" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0%" stop-color="#12162a"/>
     <stop offset="100%" stop-color="#080b18"/>
   </linearGradient>
-  <radialGradient id="glow1f" cx="1" cy="0" r="1">
+  <radialGradient id="glow5" cx="1" cy="0" r="1">
     <stop offset="0%" stop-color="#a884de" stop-opacity="0.13"/>
     <stop offset="100%" stop-color="#a884de" stop-opacity="0"/>
   </radialGradient>
-  <pattern id="grid1e" width="26" height="26" patternUnits="userSpaceOnUse">
+  <pattern id="grid4" width="26" height="26" patternUnits="userSpaceOnUse">
     <path d="M26 0H0V26" fill="none" stroke="#222846" stroke-width="1" opacity="0.42"/>
   </pattern>
 </defs>
@@ -24,21 +24,21 @@
 @keyframes pop{from{opacity:0;transform:scale(.55)}to{opacity:1;transform:scale(1)}}
 </style>
 
-  <rect x="0.75" y="0.75" width="498.5" height="314.5" rx="13" fill="url(#g1d)"/>
-  <rect x="0.75" y="0.75" width="498.5" height="314.5" rx="13" fill="url(#grid1e)"/>
-  <rect x="0.75" y="0.75" width="498.5" height="314.5" rx="13" fill="url(#glow1f)"/>
+  <rect x="0.75" y="0.75" width="498.5" height="314.5" rx="13" fill="url(#g3)"/>
+  <rect x="0.75" y="0.75" width="498.5" height="314.5" rx="13" fill="url(#grid4)"/>
+  <rect x="0.75" y="0.75" width="498.5" height="314.5" rx="13" fill="url(#glow5)"/>
   <rect x="0.75" y="0.75" width="498.5" height="314.5" rx="13" fill="none" stroke="#2b3152" stroke-width="1.5"/>
   <text x="22" y="31" font-size="12" letter-spacing="1.6" fill="#6f78a3">~/languages --by-bytes</text>
   <circle cx="474" cy="27" r="3.4" fill="#a884de">
     <animate attributeName="opacity" values="1;0.25;1" dur="2.6s" repeatCount="indefinite"/>
   </circle>
   <line x1="22" y1="43" x2="478" y2="43" stroke="#2b3152" stroke-width="1" opacity="0.75"/>
-  <clipPath id="bar1g"><rect x="26" y="62" width="0" height="22" rx="6">
+  <clipPath id="bar6"><rect x="26" y="62" width="0" height="22" rx="6">
     <animate attributeName="width" values="0;448" dur="1.25s" begin="0.2s" fill="freeze"
              keyTimes="0;1" keySplines="0.2 0.75 0.25 1" calcMode="spline"/>
   </rect></clipPath>
   <rect x="26" y="62" width="448" height="22" rx="6" fill="#2b3152" opacity="0.45"/>
-  <g clip-path="url(#bar1g)"><rect x="26" y="62" width="218.06" height="22" fill="#3572A5" opacity="0">
+  <g clip-path="url(#bar6)"><rect x="26" y="62" width="218.06" height="22" fill="#3572A5" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="0.25s" dur="0.45s" fill="freeze"/>
     </rect><rect x="244.06" y="62" width="87.73" height="22" fill="#3178c6" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="0.31s" dur="0.45s" fill="freeze"/>
